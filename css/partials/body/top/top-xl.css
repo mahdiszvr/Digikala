@@ -1,0 +1,316 @@
+div.story {
+  width: 100%;
+  height: 143px;
+  display: flex;
+  justify-content: center; }
+  div.story > div {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    justify-content: space-around; }
+    div.story > div > div {
+      height: inherit; }
+      div.story > div > div > a {
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 5px; }
+        div.story > div > div > a > img {
+          width: 75px;
+          height: 75px;
+          border-radius: 50%;
+          border: 3.5px solid white;
+          outline: 2.3px solid red; }
+        div.story > div > div > a > p {
+          font-size: 13px;
+          font-weight: 400;
+          color: black; }
+
+.slider1 {
+  width: 100%;
+  height: 400px; }
+  .slider1 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .slider1 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .slider1 .swiper-pagination-bullet {
+    width: 4px !important;
+    height: 4px !important;
+    transition: all 100ms linear; }
+  .slider1 .swiper-pagination-bullet-active {
+    width: 35px !important;
+    border-radius: 5px !important;
+    background-color: white !important;
+    width: 17px !important;
+    height: 6px !important;
+    transition: all 100ms linear; }
+  .slider1 .swiper-button-prev {
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute !important;
+    top: 350px !important;
+    right: 40px !important;
+    background-color: white !important;
+    border-radius: 50% !important;
+    opacity: 0;
+    transition: all 100ms linear; }
+    .slider1 .swiper-button-prev::after {
+      font-size: 20px !important;
+      color: black !important;
+      display: none; }
+  .slider1 .swiper-button-next {
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute !important;
+    top: 350px !important;
+    right: 90px !important;
+    background-color: white !important;
+    border-radius: 50% !important;
+    color: black !important;
+    opacity: 0;
+    transition: all 100ms linear; }
+    .slider1 .swiper-button-next::after {
+      font-size: 20px !important;
+      color: black !important;
+      display: none; }
+
+.slider1:hover > .swiper-button-prev,
+.slider1:hover .swiper-button-next {
+  opacity: 1; }
+
+div.container1 {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px; }
+  div.container1 > div.under-swiper {
+    width: 1304px;
+    height: 96px;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-around; }
+    div.container1 > div.under-swiper > div > a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 5px;
+      font-weight: 400; }
+      div.container1 > div.under-swiper > div > a > img {
+        width: 52px;
+        height: 52px; }
+      div.container1 > div.under-swiper > div > a > p {
+        font-size: 11px;
+        font-weight: 500; }
+      div.container1 > div.under-swiper > div > a > div {
+        width: 52px;
+        height: 52px;
+        background-color: #f1f2f4;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+  div.container1 > div.shgft {
+    width: 1304px;
+    height: 300px;
+    padding: 20px 2px;
+    margin-top: 14px;
+    background-color: #ef3a4f;
+    border-radius: 15px;
+    display: flex; }
+    div.container1 > div.shgft > div.slider2 {
+      height: 290px; }
+      div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide {
+        height: 260px;
+        background-color: white; }
+        div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide > a {
+          height: inherit;
+          display: inline-flex;
+          flex-direction: column;
+          row-gap: 15px;
+          position: relative;
+          padding: 12px 16px; }
+          div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide > a > img {
+            width: 150px;
+            height: 150px; }
+          div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide > a > div.content > div.price {
+            display: flex;
+            justify-content: space-between; }
+            div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide > a > div.content > div.price > div:nth-of-type(1) > span {
+              color: white;
+              background-color: #ef3a4f;
+              border-radius: 30px;
+              padding: 1px 6px;
+              font-size: 13px; }
+            div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide > a > div.content > div.price > div:nth-of-type(2) {
+              display: flex;
+              column-gap: 3px; }
+              div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide > a > div.content > div.price > div:nth-of-type(2) > span {
+                color: #3f4064;
+                font-size: 16px; }
+              div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide > a > div.content > div.price > div:nth-of-type(2) > img {
+                width: 16px;
+                height: 16px; }
+          div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide > a > div.content > p {
+            text-align: left;
+            margin: 9px 0 0 20px;
+            font-size: 12px;
+            color: lightgray;
+            text-decoration: line-through; }
+          div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide > a > div:nth-of-type(2) {
+            width: 18px;
+            position: absolute;
+            top: 16px;
+            right: 16px; }
+      div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(1) {
+        padding: 0 20px 0 8px;
+        background-color: unset; }
+        div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(1) > a {
+          width: 145px;
+          display: flex;
+          align-items: center !important;
+          justify-content: center !important;
+          row-gap: 12px !important; }
+          div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(1) > a > img:nth-of-type(1) {
+            width: 92px;
+            height: 77px; }
+          div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(1) > a > img:nth-of-type(2) {
+            width: 125px !important;
+            height: 105px; }
+          div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(1) > a > p {
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 14px; }
+            div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(1) > a > p > img {
+              width: 18px; }
+      div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(2) {
+        border-radius: 0 10px 10px 0; }
+      div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(10) {
+        border-radius: 10px 0 0 10px; }
+        div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(10) > a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          row-gap: 13px; }
+          div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(10) > a > div {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            border: 1px solid #19bfd3;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+            div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(10) > a > div > img {
+              width: 20px;
+              height: 20px; }
+          div.container1 > div.shgft > div.slider2 > div.swiper-wrapper > div.swiper-slide:nth-of-type(10) > a > p {
+            font-size: 14px; }
+      div.container1 > div.shgft > div.slider2 > .swiper-button-prev {
+        width: 40px !important;
+        height: 40px !important;
+        background-color: white !important;
+        border-radius: 50% !important;
+        color: black !important;
+        border: 0.5px solid lightgray !important;
+        transition: all 100ms linear; }
+        div.container1 > div.shgft > div.slider2 > .swiper-button-prev::after {
+          font-size: 20px;
+          display: none; }
+      div.container1 > div.shgft > div.slider2 > .swiper-button-next {
+        width: 40px !important;
+        height: 40px !important;
+        background-color: white !important;
+        border-radius: 50% !important;
+        color: black !important;
+        border: 0.5px solid lightgray !important;
+        z-index: 800;
+        transition: all 100ms linear; }
+        div.container1 > div.shgft > div.slider2 > .swiper-button-next::after {
+          font-size: 20px;
+          display: none; }
+  div.container1 > div.shgft2 {
+    width: 1304px;
+    height: 110px;
+    background: lightgray url(/media/shgft-angiz-2/freshPattern.svg) no-repeat left;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around; }
+    div.container1 > div.shgft2 > div.right > a {
+      height: 110px;
+      display: flex;
+      align-items: center;
+      column-gap: 20px; }
+      div.container1 > div.shgft2 > div.right > a > img:nth-of-type(1) {
+        width: 66px;
+        height: 62px; }
+      div.container1 > div.shgft2 > div.right > a > img:nth-of-type(2) {
+        width: 250px;
+        height: 28px; }
+      div.container1 > div.shgft2 > div.right > a > p {
+        font-size: 14px;
+        font-weight: 500;
+        background-color: #39ae00;
+        color: white;
+        padding: 0 12px;
+        line-height: 30px;
+        border-radius: 15px; }
+    div.container1 > div.shgft2 > div.left {
+      width: 637px;
+      height: 110px;
+      display: flex;
+      align-items: center;
+      column-gap: 8px; }
+      div.container1 > div.shgft2 > div.left > div > a {
+        width: 74px;
+        height: 74px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative; }
+        div.container1 > div.shgft2 > div.left > div > a > img {
+          width: 58px;
+          height: 58px;
+          border-radius: 50%; }
+        div.container1 > div.shgft2 > div.left > div > a > span {
+          width: 34px;
+          height: 20px;
+          color: white;
+          background-color: #ef394e;
+          border-radius: 30px;
+          padding: 0 5px;
+          font-size: 12px;
+          text-align: center;
+          line-height: 20px;
+          position: absolute;
+          bottom: 0;
+          right: 0; }
+      div.container1 > div.shgft2 > div.left > a {
+        width: 144px;
+        height: 50px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #39ae00;
+        background-color: white;
+        padding: 12px 20px;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        column-gap: 7px; }
+        div.container1 > div.shgft2 > div.left > a > img {
+          width: 20px; }
+
+/*# sourceMappingURL=top-xl.css.map */

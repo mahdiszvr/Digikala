@@ -1,0 +1,19 @@
+/*import setting*/
+@import url(./setting.css);
+
+/*import header*/
+@import url(./partials/header/header-xl.css);
+
+/*import body pt.1*/
+@import url(./partials/body/top/top-xl.css);
+
+/*import body pt.2*/
+@import url(./partials/body/middle/middle-xl.css);
+
+/*import body pt.3*/
+@import url(./partials/body/bottom/bottom-xl.css);
+
+/*import footer*/
+@import url(./partials/footer/footer-xl.css);
+
+

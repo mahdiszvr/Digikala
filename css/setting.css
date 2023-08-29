@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: iranyekan;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: iranyekan;
+    src: url(../media/Font/IRANYekanX-Light.woff2);
+    font-weight: 300 ;
+}
+@font-face {
+    font-family: iranyekan;
+    src: url(../media/Font/IRANYekanX-Regular.woff2);
+    font-weight: 400;
+}
+@font-face {
+    font-family: iranyekan;
+    src: url(../media/Font/IRANYekanX-Medium.woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: iranyekan;
+    src: url(../media/Font/IRANYekanX-DemiBold.woff2);
+    font-weight: 600;
+}
+@font-face {
+  font-family: iranyekan;
+  src: url(../media/Font/IRANYekanXFaNum-DemiBold.woff2);
+  font-weight: 600;
+  unicode-range: U+21-39;
+}
+@font-face {
+  font-family: iranyekan;
+  src: url(../media/Font/IRANYekanX-Bold.woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: iranyekan;
+  src: url(../media/Font/IRANYekanXFaNum-ExtraBold.woff2);
+  font-weight: 950;
+  unicode-range: U+21-39;
+}
+@font-face {
+    font-family: iranyekan;
+    src: url(../media/Font/IRANYekanXFaNum-Medium.woff2);
+    unicode-range: U+21-39;
+}
+::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+a{
+    text-decoration: unset;
+    color: black;
+}
